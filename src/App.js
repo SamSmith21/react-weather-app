@@ -1,22 +1,21 @@
 import React from "react";
-
+import Weather from "./Weather.js";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-
+        <Weather />
         <p>
-          This page is coded by
+          This page is coded by{" "}
           <a
             href="https://www.linkedin.com/in/samantha-smith-5014424b/"
             target="_blank"
           >
             Samantha Smith
-          </a>
-          and is
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/SamSmith21/react-weather-app"
             target="_blank"
