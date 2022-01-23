@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/samantha-smith-5014424b/"
             target="_blank"
+            rel="noreferrer"
           >
             Samantha Smith
           </a>{" "}
@@ -19,6 +20,7 @@ export default function App() {
           <a
             href="https://github.com/SamSmith21/react-weather-app"
             target="_blank"
+            rel="noreferrer"
           >
             open sourced on Github
           </a>
