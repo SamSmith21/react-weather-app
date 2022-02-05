@@ -4,7 +4,6 @@
   padding: 16px;
   margin: 30px auto;
   border-radius: 4px;
-  max-width: 600px;
 }
 
 .Weather h1 {
@@ -28,9 +27,8 @@
   list-style: none;
 }
 
-.Weather img {
-  height: 64px;
-  width: 64px;
+.Weather canvas {
+  display: inline-block;
 }
 
 .Weather .temperature {
