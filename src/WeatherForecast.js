@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./WeatherForecast.css";
-import WeatherIcon from "./WeatherIcon";
+
 import Axios from "axios";
-import { buildTimeValue } from "@testing-library/user-event/dist/utils";
+
 import WeatherForecastDay from "./WeatherForecastDay";
 
 export default function WeatherForecast(props) {
